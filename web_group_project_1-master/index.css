@@ -1,0 +1,624 @@
+html {
+  font-size: 62.5%;
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #323232;
+}
+
+.navigation-links {
+  display: none;
+}
+
+
+.hero-image-header {
+background-image: url("https://66.media.tumblr.com/9c06958fb19bada7ec4b27e0fd0890bf/tumblr_pg1sjwtuLT1rbo6lno4_1280.jpg");
+max-width: 100%;
+display:flex;
+flex-direction: column;
+align-items:center;
+height: 32.4rem;
+
+}
+
+.cat-hero-image {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  position:absolute;
+}
+
+.header-text {
+  color:white;
+  font-family: PT Sans, sans-serif;
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 500;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 8rem;
+  max-width: 100%;
+  line-height: 5.5rem;
+}
+
+#header-top-text {
+  font-size: 40%;
+  font-family: PT Sans Narrow, sans-serif;
+  color: white;
+  font-style: normal;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  position:relative;
+}
+
+#header-bottom-text-lmao {
+  font-size: 40%;
+  color:white;
+  font-family: PT Sans Narrow, sans-serif;
+  font-style: normal;
+  align-self: flex-end;
+  flex-wrap: wrap;
+  position:relative;
+}
+
+.primary-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #323232;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  margin: 1rem 2rem;
+  margin-bottom: .5rem;
+  padding: 0rem;
+
+}
+
+#top-body {
+  font-size: 2.25rem;
+  padding: 0;
+  margin: .5rem 1rem;
+  font-family: PT Sans Serif;
+  padding: 1rem;
+  line-height: 3rem;
+
+}
+
+.kat-container {
+  font-size: 2.15rem;
+  padding: 0;
+  margin: 0rem;
+  margin-bottom: 0rem;
+  font-family: PT Sans Serif;
+  padding: 1rem 0rem;
+  background-color: #eeeeee;
+  line-height: 3rem;
+}
+
+.secondary-header-kat {
+  font-size: 2.5rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #00897f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  margin: 0rem;
+  padding: 0rem;
+  padding-top: .5rem;
+  background-color: #eeeeee;
+}
+
+.secondary-header-mavis {
+  font-size: 2.5rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #00897f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  margin: 0rem;
+  padding: 2rem;
+  padding-bottom: 0rem;
+  background-color: #eeeeee;
+}
+
+#about-body-kat {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0rem;
+  margin-bottom: 0rem;
+  font-family: PT Sans Serif;
+  padding: 1rem 1.5rem;
+  background-color: #eeeeee;
+  line-height: 3rem;
+}
+
+.mavis-container {
+  font-size: 2.15rem;
+  padding: 0;
+  margin: 0rem;
+  margin-bottom: 4rem;
+  font-family: PT Sans Serif;
+  padding: 1rem .5rem;
+  background-color: #eeeeee;
+  line-height: 3rem;
+}
+
+#about-body-mavis {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0rem;
+  margin-bottom: 4rem;
+  font-family: PT Sans Serif;
+  padding: 1rem 1.5rem;
+  background-color: #eeeeee;
+  line-height: 3rem;
+}
+
+
+.ball-cat-circle {
+ display: none;
+
+}
+
+.ball-cat-image {
+  display:none;
+
+}
+
+.hula-cat-circle {
+display: none;
+
+}
+
+.hula-cat-image {
+ display:none;
+
+}
+
+.drac-cat-circle {
+ margin: 2.5rem 1rem;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.drac-cat-image {
+  border-radius: 50%;
+  max-width: 100%;
+
+}
+
+.get-in-touch {
+  display: none;
+}
+
+.secondary-header-business {
+  font-size: 2.5rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #00897f;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  margin: 0rem;
+  padding: 2rem;
+  padding-bottom: 0rem;
+  background-color: #eeeeee;
+}
+
+#business-info {
+  font-size: 2.15rem;
+  padding: 0;
+  margin: 0rem;
+  margin-bottom: 0rem;
+  font-family: PT Sans Serif;
+  padding: 1rem 1rem;
+  background-color: #eeeeee;
+  line-height: 3rem;
+}
+
+.secondary-header-contact {
+  font-size: 2.5rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  color: #00897f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  margin: 0rem;
+  padding: 2rem;
+  padding-bottom: 0rem;
+  background-color: #eeeeee;
+}
+
+#contact-info {
+  font-size: 2.15rem;
+  padding: 0;
+  margin: 0rem;
+  margin-bottom: 0rem;
+  font-family: PT Sans Serif;
+  padding: 1rem 1rem;
+  background-color: #eeeeee;
+  line-height: 3rem;
+}
+
+#address-info {
+  font-size: 2.15rem;
+  font-weight: bold;
+  margin: 0rem;
+  margin-bottom: 0rem;
+  font-family: PT Sans Serif;
+  padding: 1rem 1rem;
+  background-color: #eeeeee;
+  color: #f26522;
+  line-height: 3rem;
+  text-align: right;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.map-image {
+      height: 40%;
+      overflow: hidden;
+      max-width: 100%;
+      object-fit: cover;
+ }
+
+
+.footer {
+  background-color: #00897f;
+  font-size: 2rem;
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+/* On devices wider than 660px */
+@media (min-width: 660px) {
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+.navigation-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2rem;
+    color: #323232;
+    font-weight: 10;
+  }
+
+.about-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 100%;
+
+}
+
+
+
+.secondary-header-contact {
+  width: 100%;
+}
+
+.kat-container {
+  width: 80%;
+  max-width: 350px;
+  margin: 2rem 2rem;
+  padding: 0rem 1rem;
+}
+
+.secondary-header-kat {
+  width: 30rem;
+  padding: 2rem 3rem;
+  padding-bottom: 1rem;
+}
+
+#about-body-kat {
+  font-size: 1.8rem;
+  width: 30rem;
+  padding: 1rem 3rem;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  height: 20rem;
+}
+
+.mavis-container {
+  width: 80%;
+  max-width: 350px;
+  margin: 2rem 2rem;
+  padding: 0rem 1rem;
+}
+
+.secondary-header-mavis {
+  width: 30rem;
+  padding: 2rem 3rem;
+  padding-bottom: 1rem;
+}
+
+
+#about-body-mavis {
+  font-size: 1.8rem;
+  width: 30rem;
+  padding: 1rem 3rem;
+  height: 20rem;
+}
+
+.secondary-header-contact {
+  background-color: white;
+  font-weight: bold;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.cat-picture-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.ball-cat-circle {
+  display: flex;
+    margin: 1rem 2.5rem;
+}
+
+.ball-cat-image {
+  display: flex;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.hula-cat-circle {
+  display: flex;
+    margin: 1rem 2.5rem;
+}
+
+.hula-cat-image {
+  display: flex;
+  border-radius: 50%;
+  max-width: 100%;
+
+}
+
+.drac-cat-circle {
+  display: flex;
+    margin: 1rem 2.5rem;
+
+}
+
+.drac-cat-image {
+  display: flex;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.map-image {
+   height: 35rem;
+   width: 100%;
+  }
+
+}
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+
+
+  .hero-image-header {
+    height: 38rem;
+  }
+
+  .cat-hero-image {
+    height: 38rem;
+  }
+
+  .header-text {
+      font-size: 8rem;
+  }
+
+  .primary-header {
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  #top-body {
+    font-size: 2rem;
+    padding: .5rem 24rem;
+  }
+
+
+  .about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+  }
+
+  .kat-container {
+    width: 80%;
+    max-width: 380px;
+    margin: 2rem 2rem;
+    padding: 0rem 1rem;
+  }
+
+  .secondary-header-kat {
+    width: 30rem;
+    padding: 2rem 3rem;
+    padding-bottom: 1rem;
+  }
+
+  #about-body-kat {
+    font-size: 1.8rem;
+    width: 30rem;
+    max-width: 400px;
+    padding: 1rem 3rem;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    height: 20rem;
+  }
+
+  .mavis-container {
+    width: 80%;
+    max-width: 380px;
+    margin: 2rem 2rem;
+    padding: 0rem 1rem;
+  }
+
+  .secondary-header-mavis {
+    width: 28rem;
+    padding: 2rem 3rem;
+    padding-bottom: 1rem;
+  }
+
+
+  #about-body-mavis {
+    font-size: 1.8rem;
+    width: 28rem;
+    padding: 1rem 3rem;
+    height: 20rem;
+  }
+
+
+
+.get-in-touch {
+  background-color: #eeeeee;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #323232;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+  }
+
+
+.business-info-container {
+  height: 40rem;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.business-hours-wrapper {
+margin: 8rem;
+width: 40rem;
+}
+
+.secondary-header-business {
+  background-color: white;
+}
+
+#business-info {
+  font-size: 2.15rem;
+  padding: 0;
+  margin: 0rem;
+  margin-bottom: 0rem;
+  font-family: PT Sans Serif;
+  padding: 2rem 1rem;
+  background-color: #eeeeee;
+  line-height: 3rem;
+  background-color: white;
+}
+
+#contact-info {
+  font-size: 2.15rem;
+  margin: 0rem;
+  margin-bottom: 0rem;
+  font-family: PT Sans Serif;
+  padding: 1rem 1rem;
+  background-color: #eeeeee;
+  line-height: 3rem;
+  background-color: white;
+  width: 40rem;
+  height: 20rem;
+}
+
+.contact-info-wrapper {
+  margin: 2rem;
+  width: 85%;
+}
+
+.secondary-header-contact {
+  background-color: white;
+  font-weight: bold;
+  padding: 1rem 0rem;
+}
+
+#address-info {
+  font-size: 2rem;
+  background-color: white;
+  font-family: PT Sans Serif;
+  line-height: 1rem;
+  padding: .5rem;
+  margin: 0rem;
+}
+
+
+
+.footer {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+  }
+
+  }
